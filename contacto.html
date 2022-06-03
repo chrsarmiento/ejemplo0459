@@ -15,5 +15,15 @@
         <li><a href="noticias.html">Noticias</a></li>
     </ul>
     <h1>Aquí nos puedes contactar</h1>   
+    <button onclick="sayCalling()">Llama a Mr. Pepito Pepón</button>
+
+    <p id="p_calling1"></p>
+    <img hidden="hidden" id="img_calling" src="https://cdn.shopify.com/app-store/listing_images/d99ffbae810f9027baa51162058568f8/icon/CIOW-d_0lu8CEAE=.png" width="50" height="50">
+    <script>
+        function sayCalling(){
+           document.getElementById("p_calling1").innerHTML = "Llamando a Mr. Pepito Pepón";
+           document.getElementById("img_calling").removeAttribute("hidden");
+        }
+    </script>
 </body>
 </html>
